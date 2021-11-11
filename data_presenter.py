@@ -24,4 +24,5 @@ for sum in csv.reader(open_file):
 
 #csv2_file.close()
 
+open_file.close()
 print("The combined total is: ", round(total,2))
